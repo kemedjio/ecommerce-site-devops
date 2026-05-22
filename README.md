@@ -214,7 +214,7 @@ Create a bucket using Console or AWS CLI.
 
 ```bash
 aws s3api create-bucket \
-  --bucket ecommerce-terraform-backend-bucket \
+  --bucket ecommerce-terraform-backend-bucket234 \
   --region us-east-1
 ```
 
@@ -228,7 +228,7 @@ Add this below backend block in `terraform.tf` file
 ```bash
 terraform {
   backend "s3" {
-    bucket = "ecommerce-terraform-backend-bucket"
+    bucket = "ecommerce-terraform-backend-bucket234"
     key    = "s3-backend"
     region = "us-east-1"
   }
