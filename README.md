@@ -531,8 +531,15 @@ Get the values file:
 
 ```bash
 helm show values external-dns/external-dns --version 1.20.0 > external-dns-values-1.20.0.yaml
-```
 
+```
+add source
+    - service
+    - ingress
+    - getway-httproute
+    - gateway-tlsroute
+    - gateway-tcproute
+    - gateway-udproute
 Upgrade the install:
 
 ```bash
@@ -541,7 +548,6 @@ helm upgrade -i external-dns external-dns/external-dns -f external-dns-values-1.
 
 ## Deploy ArgoCD
 
-Docs: [https://artifacthub.io/packages/helm/argo/argo-cd](https://artifacthub.io/packages/helm/argo/argo-cd) 
 
 **Add ArgoCD repo**
 
