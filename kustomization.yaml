@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
   - microservices-extra-kube-manifests/HTTProute.yaml
   - microservices-extra-kube-manifests/target-grp.yaml
-
+# helm chart
 helmCharts:
   - name: onlineboutique
     repo: oci://ghcr.io/kemedjio
