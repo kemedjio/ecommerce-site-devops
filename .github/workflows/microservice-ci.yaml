@@ -6,6 +6,9 @@ on:
       service:
         required: true
         type: string
+permissions:
+  contents: read
+  packages: write
 
 jobs:
   build:
