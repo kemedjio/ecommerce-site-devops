@@ -59,7 +59,7 @@ They are built using **Microservices Architecture**.
 
 **Online Boutique** is composed of 11 microservices written in different languages that talk to each other over gRPC.
 
-![image.png](docs/images/Ar
+![image.png](docs/images/Architecture01.png
 
 Screenshots:
 
@@ -190,6 +190,7 @@ There is **NO dedicated “orders database”**.
 ---
 
 # Project Architecture
+![Alt Text](docs/images/Gitops_Project.png)
 # Implementation
 
 ## Install tools in Local Machine
