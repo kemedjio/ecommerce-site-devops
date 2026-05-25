@@ -62,7 +62,7 @@ They are built using **Microservices Architecture**.
 ![image.png](docs/images/Architecture01.png
 
 Screenshots:
-![Alt Text](docs/images/Screenshot01.png)
+![Alt Text](docs/images/Architecture01.png)
 
 ---
 
